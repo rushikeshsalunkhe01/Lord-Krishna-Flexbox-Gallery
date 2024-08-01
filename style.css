@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    background-color: #f8f9fa;
+    padding: 1rem;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 1rem;
+}
+
+.flexbox-example {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border: 2px solid #007bff; /* Default border color */
+    border-radius: 5px;
+}
+
+.example-title {
+    margin: 0 0 1rem 0;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.flexbox-wrapper {
+    display: flex;
+    gap: 10px;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.flexbox-wrapper img {
+    width: 100px;
+    height: auto;
+    border: 2px solid #28a745; /* Border color for images */
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.justify-start .flexbox-wrapper {
+    justify-content: flex-start;
+}
+
+.justify-end .flexbox-wrapper {
+    justify-content: flex-end;
+}
+
+.justify-center .flexbox-wrapper {
+    justify-content: center;
+}
+
+.justify-space-between .flexbox-wrapper {
+    justify-content: space-between;
+}
+
+.justify-space-evenly .flexbox-wrapper {
+    justify-content: space-evenly;
+}
+
+.justify-space-around .flexbox-wrapper {
+    justify-content: space-around;
+}
+
+.align-start .flexbox-wrapper {
+    align-items: flex-start;
+}
+
+.align-end .flexbox-wrapper {
+    align-items: flex-end;
+}
+
+.align-center .flexbox-wrapper {
+    align-items: center;
+}
+
+.wrap .flexbox-wrapper {
+    flex-wrap: wrap;
+}
